@@ -1,0 +1,91 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+body {
+    background-image: url('imagens/images.jpg');
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 3em;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+button {
+	background: #0066A2;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+    border-radius: 10px;
+	height: 50px;
+	width: 300px;
+	text-shadow: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+}
+
+#chamados {
+    color: black;
+    padding: 30px;
+}
+
+/* #tela {
+    background-color: aliceblue;
+    height: 300px;
+    max-width: 500px;
+} */
+
+
+
+#tela {
+    /* width: 100vw;
+    height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    }
+
+#painel, #proximas-senhas {
+    width: 300px;
+    min-height: 300px;
+    background: #fff;
+    background-color: #0066A2;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+
+
+a {
+    text-decoration: none;
+	border-color: #0066A2;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 1em;
+    padding: 0px;
+    margin: 0px;
+}

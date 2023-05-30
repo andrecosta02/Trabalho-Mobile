@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tela do Paciente</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<section>
+  <body>
+    <h1>Tela do Paciente</h1>
+  
+    <div id="totem">
+      <h2>Totem de Emissão de Senhas</h2>
+      <button onclick="emitirSenha('SP')">Emitir Senha Prioritária (SP)</button>
+      <button onclick="emitirSenha('SG')">Emitir Senha Geral (SG)</button>
+      <button onclick="emitirSenha('SE')">Emitir Senha de Exames (SE)</button>
+    </div>
+  
+    <footer>
+      <a href="atendente.html">Tela do Atendente</a>
+    </footer>
+</section>
+
+  <script src="script.js"></script>
+  <script>
+    exibirChamados(); // Chama a função para exibir os chamados ao carregar a página
+  </script>
+</body>
+</html>
