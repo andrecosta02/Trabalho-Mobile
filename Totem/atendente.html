@@ -7,16 +7,20 @@
 
 </head>
 <body>
-  <section>
+  <section id="sectionAtendente">
     <h1>Tela do Atendente</h1>
     <div id="tela">
+      
         <div id="proximas-senhas">
           <h2>Proximas Senhas:</h2>
           <hr>
+          <p id="chamados"></p>
           <ul id="chamados">
             <!-- Os chamados serão adicionados dinamicamente aqui -->
           </ul>
         </div>
+
+
         <div id="painel">
           <h2>Senhas Chamadas:</h2>
           <hr>
@@ -25,18 +29,18 @@
           </ul>
         </div>
       </div>
+
       <button onclick="chamarProximaSenha()">Chamar Próxima Senha</button>
       <button onclick="limparSenhas()">Limpar Senhas</button> <!-- Botão para limpar as senhas -->
     
-    
-    <footer>
+      <br>
       <a href="index.html">Voltar para o Totem</a>
-    </footer>
   </section>
 
   <script src="script.js"></script>
   <script>
     exibirChamados(); // Chama a função para exibir os chamados ao carregar a página
+    atualizarUltimaSenhaChamada(); // Chama a função para exibir a última senha chamada
   </script>
 </body>
 </html>

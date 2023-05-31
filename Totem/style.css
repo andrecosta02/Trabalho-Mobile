@@ -7,20 +7,27 @@
 
 body {
     background-image: url('imagens/images.jpg');
+    /* background-repeat: no-repeat; */
 }
 
 section {
     background: white;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
-    margin: auto;
-    text-align: center;
+    width: 700px;  
+    height: 630px;  
+    /* margin: auto; */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
+
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     padding: 15px;
 }
 
@@ -35,12 +42,12 @@ button {
 	border-style: outset;
 	border-color: #0066A2;
     border-radius: 10px;
-	height: 50px;
-	width: 300px;
+	height: 70px;
+	width: 400px;
 	text-shadow: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1em;
-    margin: 5px;
+    margin: 10px;
 }
 
 #chamados {
@@ -70,23 +77,27 @@ button {
     width: 300px;
     min-height: 300px;
     background: #fff;
-    background-color: #0066A2;
+    background-color: #025281;
     border-radius: 10px;
     margin: 5px;
 }
 
+#ultimaChamada {
+    width: 600px;
+    min-height: 180px;
+    background: #fff;
+    background-color: #025281;
+    border-radius: 10px;
 
-
+}
 
 a {
     text-decoration: none;
-	border-color: #0066A2;
     padding: 10px;
-}
-
-footer {
-    text-align: center;
-    font-size: 1em;
-    padding: 0px;
-    margin: 0px;
+    color: #612800;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
 }
