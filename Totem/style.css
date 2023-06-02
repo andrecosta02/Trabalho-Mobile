@@ -14,17 +14,16 @@ section {
     background: white;
     border-radius: 10px;
     padding: 15px;
-    width: 700px;  
-    height: 630px;  
+    /* width: 600px;  
+    height: 620px;   */
+    width: ;
     /* margin: auto; */
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-
 
 h1 {
     font-size: 2.5em;
@@ -40,6 +39,7 @@ button {
 	background: #0066A2;
 	color: white;
 	border-style: outset;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.263);
 	border-color: #0066A2;
     border-radius: 10px;
 	height: 70px;
@@ -80,6 +80,8 @@ button {
     background-color: #025281;
     border-radius: 10px;
     margin: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.263);
+
 }
 
 #ultimaChamada {
