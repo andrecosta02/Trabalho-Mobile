@@ -14,10 +14,6 @@ section {
     background: white;
     border-radius: 10px;
     padding: 15px;
-    /* width: 600px;  
-    height: 620px;   */
-    width: ;
-    /* margin: auto; */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 50%;
@@ -36,9 +32,9 @@ h2 {
 }
 
 button {
-	background: #0066A2;
+	background-color: #089ef4;
 	color: white;
-	border-style: outset;
+	/* border-style: outset; */
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.263);
 	border-color: #0066A2;
     border-radius: 10px;
@@ -48,20 +44,18 @@ button {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1em;
     margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+	background: #0066A2;
+    transition: background-color .5s;
 }
 
 #chamados {
     color: black;
     padding: 30px;
 }
-
-/* #tela {
-    background-color: aliceblue;
-    height: 300px;
-    max-width: 500px;
-} */
-
-
 
 #tela {
     /* width: 100vw;
@@ -97,9 +91,5 @@ a {
     text-decoration: none;
     padding: 10px;
     color: #612800;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
     font-weight: bold;
 }
